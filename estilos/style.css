@@ -141,8 +141,6 @@ span#email{
     text-align: center;
 }
 
-@charset "UTF-8";
-
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Luckiest+Guy&family=Sriracha&display=swap');
 
 *{
