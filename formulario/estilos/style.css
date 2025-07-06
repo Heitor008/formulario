@@ -1,0 +1,282 @@
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Luckiest+Guy&family=Sriracha&display=swap');
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: #010f42;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    
+    border-radius: 20px;
+    background-color: white;
+    width: 250px;
+    height: 515px;
+    
+    transition: width 0.3s, height 0.3s;
+    transform: translate(-50%, -50%);
+}
+
+section#login > nav#imagem{
+    display: block;
+    background: url(../imagens/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 40%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+section#login > div#formulario{
+    display: block;
+    padding: 10px;
+}
+
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: Amatic sc;
+    font-style: bolder;
+}
+
+div#formulario > p{
+    font-size: 0.8em;
+    text-align: center;
+}
+
+form > div.campo{
+    background-color: rgba(240, 205, 11, 0.678);
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 8px;
+    margin: 5px 0px ;
+    border: 2px solid#010f42;
+}
+
+div.campo > label{
+    display: none;
+}
+
+div.campo > span{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+    
+}
+
+div.campo > input{
+    background-color: white;
+    font-size: 1em;
+    height: 100%;
+    width: calc(100% - 45px);
+
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform:translateY(-13px);
+}
+
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #010f42;
+    
+    margin-top: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+form > input[type=submit]:hover{
+    background-color: #6fbdfd;
+}
+
+form > a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    color: white;
+    background-color:  #57aff8 ;
+    border: 1px solid;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+form > a.botao:hover{
+    background-color: #010f42;
+}
+
+form > a.botao > i{
+    font-size: 0.8em;
+}
+
+span#email{
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Luckiest+Guy&family=Sriracha&display=swap');
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: #010f42;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    
+    border-radius: 20px;
+    background-color: white;
+    width: 250px;
+    height: 515px;
+    
+    transition: width 0.3s, height 0.3s;
+    transform: translate(-50%, -50%);
+}
+
+section#login > nav#imagem{
+    display: block;
+    background: url(../imagens/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 40%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+section#login > div#formulario{
+    display: block;
+    padding: 10px;
+}
+
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: Amatic sc;
+    font-style: bolder;
+}
+
+div#formulario > p{
+    font-size: 0.8em;
+    text-align: center;
+}
+
+form > div.campo{
+    background-color: rgba(240, 205, 11, 0.678);
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 8px;
+    margin: 5px 0px ;
+    border: 2px solid#010f42;
+}
+
+div.campo > label{
+    display: none;
+}
+
+div.campo > span{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+    
+}
+
+div.campo > input{
+    background-color: white;
+    font-size: 1em;
+    height: 100%;
+    width: calc(100% - 45px);
+
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform:translateY(-13px);
+}
+
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #010f42;
+    
+    margin-top: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+form > input[type=submit]:hover{
+    background-color: #6fbdfd;
+}
+
+form > a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    color: white;
+    background-color:  #57aff8 ;
+    border: 1px solid;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+form > a.botao:hover{
+    background-color: #010f42;
+}
+
+form > a.botao > i{
+    font-size: 0.8em;
+}
+
+span#email{
+    text-align: center;
+}
